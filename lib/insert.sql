@@ -1,31 +1,62 @@
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Face Off", "Movie", 500, "6/1/95", "12/12/95");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Goodfellas", "movie", 1000, "2/1/92", "11/3/93");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Motown Philly", "album", 400, "01/23/94", "08/02/94");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Casablanca", "movie", 200, "04/2/47", "07/24/47");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("WF Roger Rabbit", "movie", 400, "03/23/87", "05/22/88");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Abbey Road", "album", 300, "06/5/67", "09/21/67");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Titanic", "movie", 500, "04/22/97", "06/21/97");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Traveller", "album", 400, "03/23/2016", "05/21/2016");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Spacejam", "movie", 700, "02/12/1996", "04/29/1996");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Four", "album", 300, "03/11/1995", "09/14/1995");
 
-INSERT INTO users (name, age) VALUES ("Gabe Aguilar", 33)
-INSERT INTO users (name, age) VALUES ("Victoria Aguilar", 38)
-INSERT INTO users (name, age) VALUES ("Andrea Salazar", 27)
-INSERT INTO users (name, age) VALUES ()
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
-INSERT INTO users (name, age) VALUES
+INSERT INTO users (name, age) VALUES ("Gabe Aguilar", 33);
+INSERT INTO users (name, age) VALUES ("Victoria Aguilar", 38);
+INSERT INTO users (name, age) VALUES ("Andrea Salazar", 27);
+INSERT INTO users (name, age) VALUES ("Bill Clinton", 70);
+INSERT INTO users (name, age) VALUES ("Hillary Clinton", 65);
+INSERT INTO users (name, age) VALUES ("Mick Jagger", 100);
+INSERT INTO users (name, age) VALUES ("Keith Richards", 101);
+INSERT INTO users (name, age) VALUES ("Tom Jones", 76);
+INSERT INTO users (name, age) VALUES ("Jimi Hendrix" 70);
+INSERT INTO users (name, age) VALUES ("DB Cooper" 77);
+INSERT INTO users (name, age) VALUES ("Hulk Hogan" 65);
+INSERT INTO users (name, age) VALUES ("Nick Cage" 54);
+INSERT INTO users (name, age) VALUES ("Patrick Starr" 28);
+INSERT INTO users (name, age) VALUES ("Squidward" 34);
+INSERT INTO users (name, age) VALUES ("Spongebob" 28);
+INSERT INTO users (name, age) VALUES ("Sandy Cheeks" 26);
+INSERT INTO users (name, age) VALUES ("Bob Hope" 99);
+INSERT INTO users (name, age) VALUES ("Frank Sinatra" 90);
+INSERT INTO users (name, age) VALUES ("Dean Martin" 88);
+INSERT INTO users (name, age) VALUES ("Sammy Davis" 89);
+
+INSERT INTO pledges (amount, user_id, project_id) VALUES (35, 1, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (40, 1, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 1, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20, 2, 8);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20, 2, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 3, 8);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 3, 1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 4, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 5, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (35, 5, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 6, 7);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 6, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 6, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 6, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 7, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 7, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 8, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 8, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (35, 9, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 10, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30, 11, 1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 12, 1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 13, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 14, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (40, 15, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20, 16, 6);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (15, 17, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 18, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (15, 19, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 20, 1);
